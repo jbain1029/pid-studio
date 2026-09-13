@@ -1,0 +1,80 @@
+{
+  "format": "pid-studio-symbol",
+  "version": 1,
+  "kind": "custom:sight_glass",
+  "definition": {
+    "label": "Sight glass",
+    "prefix": "SG",
+    "category": "Custom Symbols",
+    "ports": {
+      "inlet": [
+        -40,
+        0
+      ],
+      "outlet": [
+        40,
+        0
+      ]
+    },
+    "port_kinds": {
+      "inlet": "process",
+      "outlet": "process"
+    },
+    "routing_bounds": [
+      -20,
+      -15,
+      20,
+      15
+    ],
+    "artwork": [
+      {
+        "kind": "rect",
+        "rect": [
+          -20,
+          -15,
+          40,
+          30
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          [
+            -40,
+            0
+          ],
+          [
+            -20,
+            0
+          ]
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          [
+            20,
+            0
+          ],
+          [
+            40,
+            0
+          ]
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          [
+            -15,
+            10
+          ],
+          [
+            15,
+            -10
+          ]
+        ]
+      }
+    ]
+  }
+}
