@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1600" viewBox="0 0 800 400">
+ <rect width="800" height="400" fill="#fffdf8"/>
+ <g fill="none" stroke="#45413b" stroke-width="2.5">
+  <circle cx="350" cy="90" r="34"/><path d="M316 91 L384 89 M350 260 L350 279 M330 260 Q350 238 370 260 Z M325 282 L375 319 L375 281 L325 318 Z M90 301 L325 300 M375 300 L715 298"/>
+  <path d="M350 124 L351 241" stroke-dasharray="9 7"/>
+ </g>
+ <g font-family="Segoe Print, sans-serif" font-size="19" fill="#45413b"><text x="321" y="84">PIC</text><text x="328" y="114">201</text><text x="310" y="351">FV-201</text><text x="30" y="35">Synthetic signal-loop sketch</text></g>
+</svg>

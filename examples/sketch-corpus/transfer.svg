@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1600" viewBox="0 0 800 400">
+ <rect width="800" height="400" fill="#fffdf8"/>
+ <g fill="none" stroke="#45413b" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M70 165 L69 228 Q100 243 132 228 L130 165 Q100 151 70 165 M70 165 Q100 180 130 165"/>
+  <path d="M132 201 L324 199 M376 200 L575 202 M625 200 L735 201"/>
+  <circle cx="350" cy="200" r="26"/><path d="M332 182 L371 201 L333 220 Z"/>
+  <path d="M575 183 L625 219 L625 182 L575 219 Z"/>
+ </g>
+ <g font-family="Segoe Print, sans-serif" font-size="20" fill="#45413b"><text x="65" y="270">TK-101</text><text x="319" y="267">P-101</text><text x="557" y="267">HV-101</text><text x="30" y="40">Synthetic transfer sketch — not engineering design</text></g>
+</svg>

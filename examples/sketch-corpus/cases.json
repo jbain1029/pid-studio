@@ -1,0 +1,32 @@
+[
+  {
+    "name": "transfer",
+    "components": [["tank", "tank", "TK-101", 100, 200], ["pump", "pump", "P-101", 350, 200], ["valve", "valve", "HV-101", 600, 200]],
+    "connections": [["L1", "tank", "outlet", "pump", "inlet", "process"], ["L2", "pump", "outlet", "valve", "inlet", "process"]],
+    "findings": [],
+    "expected_tags": ["TK-101", "P-101", "HV-101"],
+    "expected_types": ["tank", "pump", "valve"],
+    "expected_edges": ["TK-101.outlet>P-101.inlet:process", "P-101.outlet>HV-101.inlet:process"]
+  },
+  {
+    "name": "signal-loop",
+    "components": [["controller", "controller", "PIC-201", 350, 80], ["valve", "control_valve", "FV-201", 350, 300]],
+    "connections": [["S1", "controller", "signal", "valve", "signal", "signal"]],
+    "findings": [],
+    "expected_tags": ["PIC-201", "FV-201"],
+    "expected_types": ["controller", "control_valve"],
+    "expected_edges": ["PIC-201.signal>FV-201.signal:signal"]
+  },
+  {
+    "name": "ambiguous-crossing",
+    "components": [["pump", "pump", "P-?", 100, 200], ["valve", "valve", "HV-301", 600, 200]],
+    "connections": [],
+    "findings": [
+      {"id": "unreadable-tag", "message": "Pump tag is P-?; confirm the tag before using this draft.", "region": {"x": 0.03, "y": 0.53, "width": 0.24, "height": 0.18}, "object_ids": ["pump"]},
+      {"id": "crossing-topology", "message": "Crossing has no clear junction dot. Confirm whether the lines join; no connection has been inferred.", "region": {"x": 0.40, "y": 0.27, "width": 0.20, "height": 0.46}, "object_ids": ["pump", "valve"]}
+    ],
+    "expected_tags": ["P-?", "HV-301"],
+    "expected_types": ["pump", "valve"],
+    "expected_edges": []
+  }
+]

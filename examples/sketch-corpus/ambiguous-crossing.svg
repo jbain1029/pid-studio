@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1600" viewBox="0 0 800 400">
+ <rect width="800" height="400" fill="#fffdf8"/>
+ <g fill="none" stroke="#45413b" stroke-width="2.5">
+  <circle cx="100" cy="200" r="26"/><path d="M82 181 L122 200 L83 219 Z M126 200 L575 201 M400 80 L399 320 M575 183 L625 219 L625 182 L575 219 Z M625 200 L730 198"/>
+ </g>
+ <g font-family="Segoe Print, sans-serif" font-size="20" fill="#45413b"><text x="63" y="268">P-?</text><text x="557" y="267">HV-301</text><text x="30" y="35">Synthetic ambiguity: unreadable tag / unclear crossing</text></g>
+</svg>
