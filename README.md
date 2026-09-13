@@ -1,5 +1,5 @@
 # PID Studio
-
+## Written by GPT-6 Astra Medium
 Reports > Component legend (SVG) exports the exact component symbols used in the
 current drawing, once per type, with names and recorded reference conventions.
 Keep this companion legend with its matching drawing and regenerate it after
